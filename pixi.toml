@@ -31,6 +31,7 @@ check-translations = "python tools/check_translations.py"
 lint-terminology = "python tools/lint_terminology.py"
 check-typos = "python tools/check_prose_typos.py"
 persona-status = "python tools/persona_status.py"
+smoke = "python smoke_test.py"
 
 [dependencies]
 python = "3.12.*"
