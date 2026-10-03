@@ -479,7 +479,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/zarr-3.3.0-pyhc364b38_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/zict-3.0.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-4.1.0-pyhcf101f3_0.conda
-      - pypi: ./
       - pypi: https://files.pythonhosted.org/packages/26/04/160dcc78bdd2f28a2ff68c66cc95c779daec4bf3fce9930112b4f74464fd/mystmd-1.3.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/3a/47/e5237372f49847e69b2514abd5170973d40b70294f52160135e74de82228/tsfel-0.2.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/45/23/3ac2edebb261e37e0385fd863d698f0efc9dfbb5ff5498ca08df86a5bc73/seisbench-0.12.3-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl
@@ -894,7 +893,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zlib-1.3.2-h8088a28_3.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zlib-ng-2.3.3-hed4e4f5_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-hbf9d68e_6.conda
-      - pypi: ./
       - pypi: https://files.pythonhosted.org/packages/26/04/160dcc78bdd2f28a2ff68c66cc95c779daec4bf3fce9930112b4f74464fd/mystmd-1.3.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/3a/47/e5237372f49847e69b2514abd5170973d40b70294f52160135e74de82228/tsfel-0.2.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/6e/46/4eadb01ab0c5094cdfe784888d4f791b60c3c6748c06e883e42ef2052ef7/seisbench-0.12.3-cp312-cp312-macosx_11_0_arm64.whl
@@ -11006,13 +11004,6 @@ packages:
   purls: []
   size: 433413
   timestamp: 1764777166076
-- pypi: ./
-  name: mlgeo-synth
-  requires_dist:
-  - numpy>=2.0
-  - pandas>=2.2
-  - scipy>=1.15
-  requires_python: '>=3.11'
 - pypi: https://files.pythonhosted.org/packages/26/04/160dcc78bdd2f28a2ff68c66cc95c779daec4bf3fce9930112b4f74464fd/mystmd-1.3.6-py3-none-any.whl
   name: mystmd
   version: 1.3.6
