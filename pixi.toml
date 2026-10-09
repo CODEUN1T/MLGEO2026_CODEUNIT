@@ -74,3 +74,4 @@ mystmd = ">=1.3"
 tsfel = "*"
 seisbench = "*"
 torchinfo = "*"
+mlgeo-synth = { git = "https://github.com/geo-smart/mlgeo-book.git" }
