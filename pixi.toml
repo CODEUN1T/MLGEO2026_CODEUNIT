@@ -16,6 +16,7 @@ platforms = ["osx-arm64", "linux-64"]
 
 [tasks]
 lab = "jupyter lab"
+smoke = "python smoke_test.py"
 
 [dependencies]
 python = "3.12.*"
